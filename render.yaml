@@ -1,0 +1,21 @@
+services:
+  # Backend API Service
+  - type: web
+    name: culture-connect-backend
+    env: node
+    rootDir: server
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+

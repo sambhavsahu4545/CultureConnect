@@ -1,0 +1,27 @@
+{
+  "name": "culture-connect",
+  "version": "1.0.0",
+  "description": "Culture Connect - Travel Booking Platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd dynamic && vite --port 5173 --host localhost",
+    "dev:frontend": "cd dynamic && vite --port 5173 --host localhost",
+    "dev:backend": "cd server && npm run dev",
+    "build": "cd dynamic && vite build",
+    "preview": "cd dynamic && vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["travel", "booking", "react", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vite": "^7.1.5"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.12",
+    "three": "^0.180.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "culture-connect-frontend",
+  "version": "1.0.0",
+  "description": "Culture Connect - Travel Booking Platform Frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173 --host localhost",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "keywords": ["travel", "booking", "react", "vite"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "framer-motion": "^12.23.12",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.5"
+  }
+}
+

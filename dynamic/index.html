@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture Connect</title>
+
+    <!-- Tailwind CSS - used for all styling in the app -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Custom CSS to reset body margin and set font */
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+            sans-serif;
+            -webkit-font-smoothing: antialiased; /* Makes text look smoother on Mac */
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+<body>
+    <!-- React app gets rendered inside this div -->
+    <div id="root"></div>
+
+    <!-- Load the React app (main.jsx is the entry point) -->
+    <script type="module" src="/main.jsx"></script>
+</body>
+</html>

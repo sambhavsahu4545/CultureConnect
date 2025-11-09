@@ -1,0 +1,22 @@
+# TODO: Add Accurate Comments to Code Files
+
+- [x] Add detailed comments to dynamic/pages/HomePage.jsx explaining the component, imports, props, and JSX structure.
+- [x] Enhance and add detailed comments to dynamic/App.jsx for better understanding of state management, effects, functions, and rendering logic.
+- [x] Add comments to dynamic/components/Header.jsx.
+- [x] Add comments to dynamic/components/Footer.jsx.
+- [x] Add comments to dynamic/components/BookingPage.jsx.
+- [x] Add comments to dynamic/components/InputField.jsx.
+- [ ] Add comments to dynamic/pages/DestinationsPage.jsx.
+- [ ] Add comments to dynamic/components/FeaturedDestinationsSection.jsx.
+- [ ] Add comments to dynamic/components/AdvancedFlightSearch.jsx.
+- [ ] Add comments to dynamic/pages/FlightResultsPage.jsx.
+- [ ] Add comments to dynamic/components/Logo.jsx.
+- [ ] Add comments to dynamic/components/LoadingScreen.jsx.
+- [ ] Add comments to dynamic/components/ProfilePage.jsx.
+- [ ] Add comments to dynamic/components/SettingsModal.jsx.
+- [ ] Add comments to dynamic/components/Icons.jsx.
+- [ ] Add comments to dynamic/pages/CarRentalsPage.jsx.
+- [ ] Add comments to dynamic/pages/TourPackagesPage.jsx.
+- [ ] Add comments to dynamic/pages/CruisesPage.jsx.
+- [ ] Add comments to dynamic/components/ServicesSection.jsx.
+- [x] Verify the app runs correctly after adding comments.

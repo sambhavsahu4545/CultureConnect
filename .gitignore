@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+server/node_modules/
+dynamic/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.production
+server/.env
+server/.env.local
+server/.env.production
+dynamic/.env
+dynamic/.env.local
+dynamic/.env.production
+
+# But keep example files (these should be committed)
+!**/env.example
+!**/.env.example
+
+# Build outputs
+dist/
+build/
+server/dist/
+dynamic/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Vercel
+.vercel
+
+# Railway
+.railway
+
+# Netlify
+.netlify
+
+# Production builds
+*.pem
+*.key
+*.cert

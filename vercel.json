@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "installCommand": "npm install",
+  "rootDirectory": "dynamic",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
